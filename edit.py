@@ -1,7 +1,6 @@
 from pprint import pprint
 import pathlib
 from pathlib import Path
-import os
 
 dir_path = pathlib.Path.cwd()
 path = Path(dir_path, "files", "recipes.txt") 
